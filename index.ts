@@ -1,19 +1,4 @@
-//hello world
-export const Copy = ():any => {
-    const metadata = {
-        kind: 'execute'
-    };
+import {AwsImporter} from './src/libs/aws-importer-plugin';
+import { ClimatiqCalculator } from './src/libs/climatiq';
 
-    // @ts-ignore
-    const execute = async (inputs) => {
-        console.log('inputs', inputs);
-        return {
-            inputs
-        }
-    };
-
-    return {
-        metadata,
-        execute
-    };
-};
+export {AwsImporter, ClimatiqCalculator}
