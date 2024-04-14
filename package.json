@@ -8,5 +8,8 @@
   },
   "author": "",
   "repository": "https://github.com/en-andrei-serdulet/test-example.git",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }
