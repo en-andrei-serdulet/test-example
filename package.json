@@ -1,0 +1,12 @@
+{
+  "name": "Copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "repository": "https://github.com/en-andrei-serdulet/test-example",
+  "license": "ISC"
+}
