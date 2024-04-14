@@ -1,17 +1,19 @@
 //hello world
-const Copy = () => {
+export const Copy = ():any => {
     const metadata = {
         kind: 'execute'
-    }
+    };
 
+    // @ts-ignore
     const execute = async (inputs) => {
-        console.log('inputs', inputs)
-    }
+        console.log('inputs', inputs);
+        return {
+            inputs
+        }
+    };
 
     return {
         metadata,
         execute
-    }
-}
-
-exports.Copy = Copy
+    };
+};
