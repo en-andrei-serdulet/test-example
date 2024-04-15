@@ -1,3 +1,9 @@
+# Before
+
+Clone the repository
+
+`npm run install`
+
 # How to run
 
 `npm link` - at root level
